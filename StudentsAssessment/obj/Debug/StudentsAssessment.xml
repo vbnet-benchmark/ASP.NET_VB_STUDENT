@@ -1,0 +1,40 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+StudentsAssessment
+</name>
+</assembly>
+<members>
+<member name="M:StudentsAssessment.general.GetConnectStringFromWebConfig">
+ <summary>
+ This returns the connection string it reads from web.config file
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:StudentsAssessment.general.GetTeacherName(System.Int32)">
+ <summary>
+ Given the teacher ID, this function returns the teacher's name.  This is the
+ combination of teacher's first and last names
+ </summary>
+ <param name="iTeacherID"></param>
+ <returns></returns>
+</member>
+<member name="T:StudentsAssessment.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:StudentsAssessment.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:StudentsAssessment.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+</members>
+</doc>
